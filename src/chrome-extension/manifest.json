@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "ASCIImoji",
   "description": "ASCII emoticons.",
-  "version": "@@version",
+  "version": "1.2.3.4",
   "permissions": [
     "storage",
     "http://*/*",

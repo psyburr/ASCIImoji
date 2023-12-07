@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "js/jquery-2.1.1.min.js", "js/asciimoji.js", "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery-2.1.1.min.js", "js/asciimoji.jquery.js", "js/script.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Asciify ALL the websites!",
+   "differential_fingerprint": "1.fe8d0e673ce1fb3251685acd4ebbb4749bafdf84ea51212f220e98ea9f47069e",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCB6ZS9DaY2+bmQwNrLhHZH/GmePjvNhmaKW2smQf3qHwNXtRMNXeT8l5HAz29FZoS4FPrdFerq1ImVuNG1oLW0KoD8pHqOCT+ANZtBdIGZfgoEbHkql8I+Rda8Zn/3tSp0D1nyHlVFPhp5t2hYVx+/j9eeAcrzARYfpouWPUx6LQIDAQAB",
+   "manifest_version": 2,
+   "name": "ASCIImoji",
+   "options_page": "options/index.html",
+   "permissions": [ "storage", "http://*/*", "https://*/*", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.1"
+}
